@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Barbie Movie World</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+background:linear-gradient(180deg,#ffd6ec,#fff5fb);
+font-family:'Quicksand',sans-serif;
+text-align:center;
+color:#c21872;
+}
+
+/* title */
+
+.title{
+font-family:'Pacifico',cursive;
+font-size:85px;
+margin-top:40px;
+color:#ff3fa4;
+text-shadow:0 0 10px #ffc1e3,0 0 20px #ffc1e3;
+}
+
+/* subtitle */
+
+.subtitle{
+font-size:22px;
+margin-bottom:40px;
+}
+
+/* movie grid */
+
+.movies{
+width:85%;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+}
+
+/* movie card */
+
+.movie{
+background:white;
+padding:15px;
+border-radius:20px;
+box-shadow:0 8px 18px rgba(255,105,180,0.3);
+transition:0.3s;
+}
+
+.movie:hover{
+transform:scale(1.07);
+box-shadow:0 10px 25px hotpink;
+}
+
+/* poster */
+
+.movie img{
+width:100%;
+border-radius:15px;
+margin-bottom:10px;
+}
+
+.movie p{
+margin:0;
+font-weight:600;
+color:#ff2f92;
+}
+
+/* sparkles */
+
+.sparkles{
+font-size:28px;
+margin-top:5px;
+animation:sparkle 1.5s infinite alternate;
+}
+
+@keyframes sparkle{
+0%{transform:scale(1);}
+100%{transform:scale(1.3);}
+}
+
+/* footer */
+
+.footer{
+margin-top:60px;
+padding:20px;
+font-size:14px;
+opacity:0.8;
+}
+
+a{
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 class="title">Barbie Movie World</h1>
+
+<div class="sparkles">✨💖✨</div>
+
+<p class="subtitle">Watch Barbie movies 💕</p>
+
+<div class="movies">
+
+<div class="movie">
+<a href="https://youtu.be/FK_rQKA9WBI" target="_blank">
+<img src="Barbie_Princess_Charm_School.jpg">
+<p>Barbie Princess Charm School (2011)</p>
+</a>
+</div>
+
+<div class="movie">
+<a href="https://youtu.be/sdB-i9lvHHQ" target="_blank">
+<img src="Princess_&_Popstar_DV.png">
+<p>Barbie The Princess & The Popstar (2012)</p>
+</a>
+</div>
+
+<div class="movie">
+<a href="https://youtu.be/RMlvBP2AJuw" target="_blank">
+<img src="swan lake.jpg">
+<p>Barbie of Swan Lake (2003)</p>
+</a>
+</div>
+
+<div class="movie">
+<a href="https://youtu.be/XFJEXFGbrsY" target="_blank">
+<img src="unnamed.jpg">
+<p>Barbie as the Princess and the Pauper (2004)</p>
+</a>
+</div>
+
+<div class="movie">
+<a href="https://youtu.be/1-ob4pK-HI4" target="_blank">
+<img src="images.jfif">
+<p>Barbie & The Diamond Castle (2008)</p>
+</a>
+</div>
+
+<div class="movie">
+<a href="https://youtu.be/L0N43UFmTR4" target="_blank">
+<img src="pegasus.jfif">
+<p>Barbie and the Magic of Pegasus (2005)</p>
+</a>
+</div>
+
+<div class="movie">
+<a href="https://youtu.be/mQLNOGpRpA8" target="_blank">
+<img src="fairy.jpg">
+<p>Barbie A Fairy Secret (2011)</p>
+</a>
+</div>
+
+<div class="movie">
+<a href="https://youtu.be/f3zqp9Kw26E" target="_blank">
+<img src="BarbieDancingPrincesses.jpg">
+<p>Barbie in the 12 Dancing Princesses (2006)</p>
+</a>
+</div>
+
+</div>
+
+<div class="footer">
+Made with 💖 by Nimra Iram Shivalli
+</div>
+
+</body>
+</html>
